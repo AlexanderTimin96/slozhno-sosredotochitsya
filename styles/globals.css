@@ -30,11 +30,3 @@ picture {
   margin: 0;
   padding: 0;
 }
-
-button,
-a {
-  color: currentColor;
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
-}

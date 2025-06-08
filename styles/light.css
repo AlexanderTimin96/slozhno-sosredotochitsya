@@ -1,11 +1,25 @@
 .page.theme_light {
   --bg-color: #fff1f7;
+  --accent-bg-color: #ff8dcb;
   --text-color: #353430;
+  --accent-text-color: var(--text-color);
+  --accent-text-color_from_accent-bd-color: var(--text-color);
+  --general-title-color: #ffc2e6;
+  --rec-vision: hidden;
+
+  --bg-image: url("../images/cover-image-light.png");
 }
 
 @media (prefers-color-scheme: light) {
   :root {
     --bg-color: #fff1f7;
+    --accent-bg-color: #ff8dcb;
     --text-color: #353430;
+    --accent-text-color: var(--text-color);
+    --accent-text-color_from_accent-bd-color: var(--text-color);
+    --general-title-color: #ffc2e6;
+    --rec-vision: hidden;
+
+    --bg-image: url("../images/cover-image-light.png");
   }
 }

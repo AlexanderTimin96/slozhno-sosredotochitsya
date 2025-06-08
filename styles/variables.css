@@ -4,7 +4,9 @@
   --text-color: #f1b2ce;
   --accent-text-color: #ff0070;
   --accent-text-color_from_accent-bd-color: var(--bg-color);
-  --title-color: #db00ff;
+  --general-title-color: #db00ff;
+  --shadow-text-color: #FF0070;
+  --rec-vision: visible;
 
   --bg-image: url("../images/cover-image-dark.png");
 
